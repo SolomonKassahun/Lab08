@@ -14,13 +14,13 @@ function forINLoop() {
     // A Student Object 
     const student = { name: "Abebe", age: 21, year: "2dn year" }
    
-    var x = document.getElementById('forInLoop')
+    var properties = document.getElementById('forInLoop')
     //x.innerHTML = student.name
     // 1. Create a for in loop that iterate over the student object
     //for(key in student){}
-    for (key in student){
-        x.innerHTML +=
-        `<li class='list-group-item'>${key}:${student[key]}</li>`
+    for (value in student){
+        properties.innerHTML +=
+        `<li class='list-group-item'>${value}:${student[value]}</li>`
     }
     
     // 2. Inside the loop paint the UI [Use the Format Given Below]
@@ -41,11 +41,11 @@ function forOFLoop() {
 
     // A Students Array
     const students = [{ name: "Abebe", age: 21, year: "2dn year" }, { name: "Kebede", age: 22, year: "2dn year" }, { name: "Abebech", age: 23, year: "2dn year" }]
-    var x = document.getElementById('forOfLoop')
+    var properties = document.getElementById('forOfLoop')
     // 1. Create a for of loop that iterate over the students Array and displays the names of students 
 
-    for(value of students){
-        x.innerHTML += `<li class='list-group-item'>${value.name}</li>`
+    for(values of students){
+        properties.innerHTML += `<li class='list-group-item'>${values.name}</li>`
     }
     // 2. Inside the loop paint the UI [Use the Format Given Below]
 

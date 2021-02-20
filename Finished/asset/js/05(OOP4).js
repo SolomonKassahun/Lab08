@@ -3,13 +3,13 @@ function Person(firstName, lastName) {
     this.firstName = firstName;
     this.lastName = lastName;
 }
-Person.prototype.getFullName = function(){
-    return this.firstName + " " + this.lastName
-}
+
 // 1. Create a getFullName Method on prototype object 
 // 2. The Function will return firstName lastName
 
-
+Person.prototype.getFullName = function(){
+    return this.firstName + " " + this.lastName
+}
 //create a customer object
 function Customer(firstName, lastName, membership) {
 

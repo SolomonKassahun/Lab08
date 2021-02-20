@@ -10,7 +10,7 @@ class person{
         return `${this.firstName} ${this.lastName}`
     }
 }
-const branStark = new person("Bran","Stark")
+const bran = new person("Bran","Stark")
 
 //2. Create the constructor that initialize firstName and lastName
 
@@ -23,4 +23,4 @@ const branStark = new person("Bran","Stark")
 
 
 //5. Display the greeting on Bran Object [remove the string when you have the object]
-Obj_C3.innerHTML = branStark.greeting();
+Obj_C3.innerHTML = bran.greeting();

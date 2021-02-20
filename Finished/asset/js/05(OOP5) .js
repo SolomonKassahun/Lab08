@@ -18,10 +18,10 @@ class Customer_ES6 extends Person_ES6{
 
     }
 }
-const JeorMormont = new Customer_ES6("Joer","Mormont")
+const Customer = new Customer_ES6("Joer","Mormont")
 
 //3. Create Customer ["Jeor", "Mormont"]
 
 
 //4. Display the greeting on Jeor Customer Object [remove the string when you have the object]
-es6_proto.innerHTML = JeorMormont.fName + " " + JeorMormont.lName;
+es6_proto.innerHTML = Customer.fName + " " + Customer.lName;

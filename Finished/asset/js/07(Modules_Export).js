@@ -26,4 +26,4 @@ export{exp1,exp2,exp3}
 export{exp1 as exp2_Alias}
 
 //4. Export exp3
-//export{exp3}
+export{exp3}
